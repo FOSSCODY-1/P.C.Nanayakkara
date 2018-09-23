@@ -5,43 +5,46 @@
     <meta charset="UTF-8">
     <title>Panda Player</title>
     <link rel="stylesheet" href="css\main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
     <div id="header">
         <header id="top_header">
             <h1>
-                <a href="main.html"><img id="icon" src="images/panda.png" width="40px" /></a>PANDA PLAYER</h1>
+                <a href="main.html"><img id="icon" src="images/panda.png" width="40px" /></a>PANDA PLAYER
+            </h1>
         </header>
     </div>
-    <div id="content">
-        <nav id="dashboard">
-            <ul id="main_list">
-                <li id="vid">
-                    <ul>
-                        <a href="video.html" title="Play mp4 files">VIDEO</a>
-                        <li id="video1">video 1</li>
-                        <li id="video2">video 2</li>
-                        <li id="video3">video 3</li>
-                    </ul>
+    <div class="content">
+        <div class="side_bar">
+            <ul>
+                <li>
+                    <div class="video_list">
+                        <a href="#video" class="videobtn" title="Video Playlist">VIDEO</a>
+                    </div>
+                    <a href=".display">Video 1</a>
+                    <a href=".display">Video 2</a>
+                    <a href=".display">Video 3</a>
                 </li>
-                <li id="aud">
-                    <ul>
-                        <a href="audio.html" title="Play mp3 files">AUDIO</a>
-                        <li id="audio1">audio 1</li>
-                        <li id="audio2">audio 2</li>
-                        <li id="audio3">audio 3</li>
-                        <li id="audio4">audio 4</li>
-                    </ul>
+                <li>
+                    <div class="audio_list">
+                        <a href="#audio" class="audiobtn" title="Audio Playlist">AUDIO</a>
+                    </div>
+                    <a href=".display">Audio 1</a>
+                    <a href=".display">Audio 2</a>
+                    <a href=".display">Audio 3</a>
                 </li>
             </ul>
-        </nav>
-        <section id="image">
-            <img src="D:\Media Player\images\panda.png" width="1100px" height="500px" />
+        </div>
+        <section class="diplay">
+            <img src="images\panda.png" width="1100px" height="500px" />
         </section>
     </div>
     <footer>
-        <p>PandaPlayer</p>
+        <div class="footer">
+            <p>PandaPlayer</p>
+        </div>
     </footer>
 </body>
 

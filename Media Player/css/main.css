@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    /*Removing all defult styles*/
 }
 
 body {
@@ -12,7 +13,6 @@ body {
 }
 
 header,
-nav,
 section,
 footer {
     display: block;
@@ -29,103 +29,46 @@ h1 {
     border-bottom: 2px solid rgb(4, 243, 252)
 }
 
-#content {
+.content {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
     display: -webkit-box;
     -webkit-box-orient: horizontal;
+    padding-right: 5px;
+    /*Flexible box model*/
 }
 
-#dashboard {
+ul {
+    list-style-type: none;
+}
+
+.side_bar {
     margin: 5px;
+    padding: 0px;
     width: 200px;
-    border: 2px solid rgb(34, 34, 34);
+    height: 100%;
+    display: -webkit-box;
+    -webkit-box-flex: 1;
     font: bold 20px Calibri;
     color: rgb(141, 141, 141);
+    background-color: rgb(31, 30, 30);
 }
 
-#main_list {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-}
-
-a {
+.side_bar a {
     text-decoration: none;
     color: rgb(194, 191, 191);
 }
 
-#vid {
-    list-style: none;
-    text-align: center;
-    padding: 10px;
-    border: 2px none;
-    -webkit-box-flex: 1;
-    margin: 5px;
-    background: rgb(34, 34, 34);
-}
-
-#video1 {
-    list-style: none;
-    text-align: left;
-    -webkit-box-flex: 1;
-}
-
-#video2 {
-    list-style: none;
-    text-align: left;
-    -webkit-box-flex: 1;
-}
-
-#video3 {
-    list-style: none;
-    text-align: left;
-    -webkit-box-flex: 1;
-}
-
-#aud {
-    list-style: none;
-    text-align: center;
-    padding: 10px;
-    border: 2px none;
-    -webkit-box-flex: 1;
-    margin: 5px;
-    background: rgb(34, 34, 34);
-}
-
-#audio1 {
-    list-style: none;
-    text-align: left;
-    -webkit-box-flex: 1;
-}
-
-#audio2 {
-    list-style: none;
-    text-align: left;
-    -webkit-box-flex: 1;
-}
-
-#audio3 {
-    list-style: none;
-    text-align: left;
-    -webkit-box-flex: 1;
-}
-
-#audio4 {
-    list-style: none;
-    text-align: left;
-    -webkit-box-flex: 1;
-}
-
-#image {
-    text-align: left;
+.display {
+    text-align: right;
     display: -webkit-box;
     -webkit-box-flex: 1;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-footer {
+.footer {
     width: 100%;
     text-align: center;
     padding: 10x;
