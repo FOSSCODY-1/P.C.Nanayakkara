@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Panda Player</title>
     <link rel="stylesheet" href="css\main.css" />
+    <link rel="javascript" href="JavaScript files\main.js" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -18,24 +19,22 @@
     </div>
     <div class="content">
         <div class="side_bar">
-            <ul>
-                <li>
-                    <div class="video_list">
-                        <a href="#video" class="videobtn" title="Video Playlist">VIDEO</a>
-                    </div>
-                    <a href=".display">Video 1</a>
-                    <a href=".display">Video 2</a>
-                    <a href=".display">Video 3</a>
-                </li>
-                <li>
-                    <div class="audio_list">
-                        <a href="#audio" class="audiobtn" title="Audio Playlist">AUDIO</a>
-                    </div>
-                    <a href=".display">Audio 1</a>
-                    <a href=".display">Audio 2</a>
-                    <a href=".display">Audio 3</a>
-                </li>
-            </ul>
+            <button class="video_button">
+                <a href="JavaScript files\main.js" title="Video Playlist">VIDEO</a>
+            </button>
+            <div class="video_content">
+                <a href=".display">Video 1</a>
+                <a href=".display">Video 2</a>
+                <a href=".display">Video 3</a>
+            </div>
+            <button class="audio_button">
+                <a href="#audio" title="Audio Playlist">AUDIO</a>
+            </button>
+            <div class="audio_content">
+                <a href=".display">Audio 1</a>
+                <a href=".display">Audio 2</a>
+                <a href=".display">Audio 3</a>
+            </div>
         </div>
         <section class="diplay">
             <img src="images\panda.png" width="1100px" height="500px" />
