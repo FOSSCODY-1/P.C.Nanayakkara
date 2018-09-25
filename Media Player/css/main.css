@@ -6,9 +6,9 @@
 
 body {
     width: 100%;
-    background-color: rgb(20, 20, 20);
-    color: white;
-    margin: 10px;
+    background-color: white;
+    color: black;
+    margin: 0px;
     text-align: center;
 }
 
@@ -20,9 +20,11 @@ footer {
 
 #header {
     width: 100%;
+    position: absolute;
 }
 
 h1 {
+    margin-left: 200px;
     padding: 30px;
     font: bold 60px Calibri;
     text-align: left;
@@ -31,10 +33,9 @@ h1 {
 
 .content {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 10px;
     padding-right: 5px;
-    /*Flexible box model*/
 }
 
 ul {
@@ -42,7 +43,7 @@ ul {
 }
 
 .side_bar {
-    margin: 5px;
+    margin: 0px;
     padding: 0px;
     width: 200px;
     height: 100%;
@@ -50,11 +51,13 @@ ul {
     font: bold 20px Calibri;
     color: rgb(141, 141, 141);
     background-color: rgb(31, 30, 30);
+    margin-right: 0px;
 }
 
 .side_bar a,
-.video_button {
-    padding: 6px 8px 6px 16px;
+.video_button,
+.audio_button {
+    padding: 10px 8px 6px 16px;
     text-decoration: none;
     color: rgb(194, 191, 191);
     display: block;
@@ -67,21 +70,28 @@ ul {
     outline: none;
 }
 
-.video_content {
+.video_content,
+.audio_content {
     display: none;
 }
 
 .display {
     text-align: right;
     margin-left: 200px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.display img {
+    margin-left: 0px;
+    margin-top: 145px;
+    opacity: 0.5;
 }
 
 .footer {
-    width: 100%;
+    margin-left: 200px;
     text-align: center;
     padding: 10x;
-    font: bold 20px Calibri;
-    border-top: 2px solid white;
+    font: 20px Calibri;
+    border-top: 2px solid rgb(1, 152, 211);
 }
