@@ -4,31 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Panda Player</title>
-    <link rel="shortcut icon" href="image\panda-3.png">
     <link rel="stylesheet" href="css\main.css" />
-    <link rel="javascript" href="JavaScript files\main.js" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="images/panda-3.png">
+    <script src="JavaScript files/main.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <div id="header">
-        <header id="top_header">
-            <h1>
-                <a href="main.html"><img id="icon" src="images\panda-3.png" height="58px" /></a>PANDA PLAYER
-            </h1>
-        </header>
-    </div>
-    <div class="content">
-        <div class="side_bar">
-            <button class="video_button" href="JavaScript files\main.js">
-                <a title="Video Playlist">VIDEO</a>
-            </button>
+    <header id="top_header">
+        <h1>
+            <a href="main.html"><img id="icon" src="images\panda-3.png" height="58px" /></a>PANDA PLAYER
+        </h1>
+    </header>
+    <div class="side_bar">
+        <div class="video">
+            <button class="video_button">
+                    <i class="fa fa-caret-down"></i>
+                    <a title="Video Playlist">VIDEO</a>
+                </button>
             <div class="video_content">
                 <a href=".display">Video 1</a>
                 <a href=".display">Video 2</a>
                 <a href=".display">Video 3</a>
             </div>
-            <button class="audio_button" href="JavaScript files\main.js">
+        </div>
+        <div class="audio">
+            <button class="audio_button">
+                <i class="fa fa-caret-down"></i>
                 <a title="Audio Playlist">AUDIO</a>
             </button>
             <div class="audio_content">
@@ -37,10 +40,10 @@
                 <a href=".display">Audio 3</a>
             </div>
         </div>
-        <section class="display">
-            <img src="images\panda.png" width="1100px" height="500px" />
-        </section>
     </div>
+    <section class="display">
+        <img src="images\panda.png" width="1100px" height="500px" />
+    </section>
     <footer>
         <div class="footer">
             <p>PandaPlayer</p>
