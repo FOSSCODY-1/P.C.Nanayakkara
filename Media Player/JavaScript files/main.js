@@ -13,18 +13,27 @@ for (i = 0; i < video.length; i++) {
     });
 }
 
-var audio = document.getElementsByClassName("audio_button");
-var i;
+var vid = document.getElementById("#video1")
 
-for (i = 0; i < audio.length; i++) {
-    audio[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var audiocontent = this.nextElementSibling;
-        if (audiocontent.div.audio_content.display === "block") {
-            audiocontent.div.audio_content.display = "none";
-        } else {
-            audiocontent.div.audio_content.display = "block";
+function playpause() {
+    if (vid.play)
+        vid.pause();
+    else
+        vid.play();
+}
 
-        }
-    });
+function fullscreen() {
+    if (vid.width === 1100)
+        vid.width = 1300;
+    else
+        vid.width = 1100;
+}
+
+var aud = document.getElementById("#audio1");
+
+function play_pause() {
+    if (aud.play)
+        aud.pause();
+    else
+        aud.play();
 }

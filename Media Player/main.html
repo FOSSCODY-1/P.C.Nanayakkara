@@ -19,8 +19,7 @@
     <div class="side_bar">
         <div class="video">
             <button class="video_button">
-                    <i class="fa fa-caret-down"></i>
-                    <a title="Video Playlist">VIDEO</a>
+                <a title="Video Playlist">VIDEO</a>
                 </button>
             <div class="video_content">
                 <a href=".media_content">Video 1</a>
@@ -30,7 +29,6 @@
         </div>
         <div class="audio">
             <button class="audio_button">
-                <i class="fa fa-caret-down"></i>
                 <a title="Audio Playlist">AUDIO</a>
             </button>
             <div class="audio_content">
@@ -52,17 +50,30 @@
             <video id="video3" width="1100" height="500">
                 <source src="https://www.youtube.com/watch?v=PSTpvNtYEJ0">
             </video>
+            <div class="vid_control_buttons">
+                <button onclick="playpause()">Play/Pause</button>
+                <button onclick="fullscreen()">Fullscreen</button>
+            </div>
+            <div id="vid_default_bar">
+                <div id="vid_progress_bar"></div>
+            </div>
         </div>
         <div id="audio_playlist">
             <audio id="audio1">
                 <source src="audio files/14_Avicii_-_Levels.mp3">
             </audio>
             <audio id="audio2">
-                <source src="audio files/Alan Walker - Faded.mp3">
+                <source src="audio files/14_Avicii_-_Levels.mp3">
             </audio>
             <audio id="audio3">
-                <source src="audio files/Martin Garrix - Animals .mp3">
+                <source src="audio files/14_Avicii_-_Levels.mp3">
             </audio>
+            <div class="aud_control_buttons">
+                <button onclick="play_pause">Play/Pause</button>
+            </div>
+            <div id="aud_default_bar">
+                <div id="aud_progress_bar"></div>
+            </div>
         </div>
     </section>
     <footer>
