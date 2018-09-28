@@ -94,14 +94,14 @@ ul {
     color: white;
 }
 
-.display {
+.media_content {
     text-align: right;
     margin-left: 200px;
     padding-top: 0px;
     padding-bottom: 0px;
 }
 
-.display img {
+.media_content img {
     margin-left: 0px;
     margin-top: 145px;
     opacity: 0.5;

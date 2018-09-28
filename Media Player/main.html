@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <title>Panda Player</title>
     <link rel="stylesheet" href="css\main.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/png" href="images/panda-3.png">
     <script src="JavaScript files/main.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,9 +23,9 @@
                     <a title="Video Playlist">VIDEO</a>
                 </button>
             <div class="video_content">
-                <a href=".display">Video 1</a>
-                <a href=".display">Video 2</a>
-                <a href=".display">Video 3</a>
+                <a href=".media_content">Video 1</a>
+                <a href=".media_content">Video 2</a>
+                <a href=".media_content">Video 3</a>
             </div>
         </div>
         <div class="audio">
@@ -35,14 +34,36 @@
                 <a title="Audio Playlist">AUDIO</a>
             </button>
             <div class="audio_content">
-                <a href=".display">Audio 1</a>
-                <a href=".display">Audio 2</a>
-                <a href=".display">Audio 3</a>
+                <a href=".media_content">Audio 1</a>
+                <a href=".media_content">Audio 2</a>
+                <a href=".media_content">Audio 3</a>
             </div>
         </div>
     </div>
-    <section class="display">
-        <img src="images\panda.png" width="1100px" height="500px" />
+    <section class="media_content">
+        <img src="images\panda-3.png" width="1100px" height="500px" />
+        <div id="video_playlist">
+            <video id="video1" width="1100" height="500">
+                <source src="https://www.youtube.com/watch?v=EngW7tLk6R8">
+            </video>
+            <video id="video2" width="1100" height="500">
+                <source src="https://www.youtube.com/watch?v=hpESFTY4Vuw">
+            </video>
+            <video id="video3" width="1100" height="500">
+                <source src="https://www.youtube.com/watch?v=PSTpvNtYEJ0">
+            </video>
+        </div>
+        <div id="audio_playlist">
+            <audio id="audio1">
+                <source src="audio files/14_Avicii_-_Levels.mp3">
+            </audio>
+            <audio id="audio2">
+                <source src="audio files/Alan Walker - Faded.mp3">
+            </audio>
+            <audio id="audio3">
+                <source src="audio files/Martin Garrix - Animals .mp3">
+            </audio>
+        </div>
     </section>
     <footer>
         <div class="footer">
