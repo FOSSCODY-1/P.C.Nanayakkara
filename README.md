@@ -9,9 +9,9 @@ Panda player is a media player which is compatible with both videos and audios. 
 
 ## Build on using
 
-    *HTML5  
-    *CSS  
-    *JavaScript  
+* HTML5  
+* CSS  
+* JavaScript  
 
 ## System Requirements
 
@@ -19,16 +19,16 @@ Google Chrome or Safari browser. It is better to have the latest updated version
 
 ## How to use
 
-    *Clone the project  
-    *Open the 'audio files' folder, upload the audio file you want to play and name them as audio1.mp3, audio2.mp3, audio3.mp3 etc.
-    *Same with the video files. Upload them to the 'video files' folder and rename them as video1.mp4, video2.mp4 etc.
-    *Then open the html file in your web browser to run the media player.
+* Clone the project  
+* Open the 'audio files' folder, upload the audio file you want to play and name them as audio1.mp3, audio2.mp3, audio3.mp3 etc.
+* Same with the video files. Upload them to the 'video files' folder and rename them as video1.mp4, video2.mp4 etc.
+* Then open the html file in your web browser to run the media player.
 
 ## Future Goals
 
-    *Adding next, previous buttons to the media player. (Working on them)
-    *Adding playlist facility.  
-    *Implement this to an android app with more features and facilities.
+* Adding next, previous buttons to the media player. (Working on them)
+* Adding playlist facility.  
+* sImplement this to an android app with more features and facilities.
 
 ## Contribution
 
