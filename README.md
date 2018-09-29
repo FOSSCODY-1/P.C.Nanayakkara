@@ -1,6 +1,6 @@
 # Panda Player
 
-![](https://github.com/FOSSCODY-1/P.C.Nanayakkara/blob/master/Media%20Player/images/panda-3.png)
+![alt text](https://github.com/FOSSCODY-1/P.C.Nanayakkara/blob/master/Media%20Player/images/panda-3.png)
 
 [P.C.Nanayakkara](https://github.com/FOSSCODY-1/P.C.Nanayakkara)
 
@@ -33,6 +33,10 @@ Google Chrome or Safari browser. It is better to have the latest updated version
 ## Contribution
 
 Before making any changes to this repositary, please contact the owner via email or add as an issue.
+
+## Bug Fixes
+
+There are some bug fixes and those will be fixed as soon as possible.
 
 ## License
 
