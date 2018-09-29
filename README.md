@@ -1,6 +1,6 @@
 # Panda Player
 
-![Alternate text](C:\Users\prabh\Desktop\Media\P.C.Nanayakkara\Media Player\images\panda-3.png)
+![](C:\Users\prabh\Desktop\Media\P.C.Nanayakkara\Media Player\images\panda-3.png)
 
 [P.C.Nanayakkara](https://github.com/FOSSCODY-1/P.C.Nanayakkara)
 
