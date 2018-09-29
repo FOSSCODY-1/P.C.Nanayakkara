@@ -13,20 +13,28 @@ for (i = 0; i < video.length; i++) {
     });
 }
 
-var vid = document.getElementById("#video1")
+var audio = document.getElementsByClassName("audio_button");
+var j;
+
+for (j = 0; j < audio.length; j++) {
+    audio[j].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var audiocontent = this.nextElementSibling;
+        if (audiocontent.div.audio_content.display === "block") {
+            audiocontent.div.audio_content.display = "none";
+        } else {
+            audiocontent.div.audio_content.display = "block";
+        }
+    });
+}
+
+var vid = document.getElementById("video1")
 
 function playpause() {
-    if (vid.play)
+    if (!vid.paused)
         vid.pause();
     else
         vid.play();
-}
-
-function fullscreen() {
-    if (vid.width === 1100)
-        vid.width = 1300;
-    else
-        vid.width = 1100;
 }
 
 var aud = document.getElementById("audio1");

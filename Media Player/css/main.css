@@ -46,7 +46,7 @@ h1 {
 .side_bar a,
 .video_button,
 .audio_button {
-    padding: 10px 22px 6px 2px;
+    padding: 10px 34px 6px 34px;
     text-decoration: none;
     color: rgb(194, 191, 191);
     display: block;
@@ -70,8 +70,7 @@ h1 {
     display: none;
     position: absolute;
     min-width: 200px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    padding: 12px 16px;
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -107,16 +106,19 @@ h1 {
 .vid_control_buttons {
     float: left;
     border: none;
+    padding: 5px;
 }
 
 .aud_control_buttons {
     float: left;
     border: none;
+    padding: 5px;
 }
 
 #vid_default_bar {
     width: 1100px;
     height: 5px;
+    padding: 0px 2px 0px 5px;
     position: relative;
     background: rgb(158, 158, 158);
 }
@@ -126,8 +128,8 @@ h1 {
     /*adjusting using javascript*/
     height: 5px;
     padding: 1px;
-    float: left;
     position: absolute;
+    float: left;
     border: none;
     background: rgb(116, 116, 116);
 }
@@ -135,7 +137,9 @@ h1 {
 #aud_default_bar {
     width: 500px;
     height: 5px;
+    text-align: center;
     position: relative;
+    padding: 0px 2px 0px 5px;
     background: rgb(158, 158, 158);
 }
 
@@ -143,17 +147,18 @@ h1 {
     width: 0px;
     /*adjusting using javascript*/
     height: 5px;
-    padding: 1px;
-    float: left;
+    padding: 0px;
     position: absolute;
+    float: left;
     border: none;
     background: rgb(116, 116, 116);
 }
 
 .footer {
     margin-left: 200px;
+    margin-top: 20px;
     text-align: center;
-    padding: 10x;
+    padding: 10px;
     font: 20px Calibri;
     border-top: 2px solid rgb(1, 152, 211);
 }
