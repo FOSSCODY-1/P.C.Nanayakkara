@@ -29,10 +29,10 @@ function fullscreen() {
         vid.width = 1100;
 }
 
-var aud = document.getElementById("#audio1");
+var aud = document.getElementById("audio1");
 
 function play_pause() {
-    if (aud.play)
+    if (!aud.paused)
         aud.pause();
     else
         aud.play();
