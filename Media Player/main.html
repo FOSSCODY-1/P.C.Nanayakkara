@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="css\main.css" />
     <!--Title Icon---->
     <link rel="icon" type="image/png" href="images/panda-3.png">
-    <!--Reference to the javascript file---->
-    <script src="JavaScript files/main.js"></script>
 </head>
 
 <body>
@@ -22,7 +20,7 @@
         <div class="video">
             <button class="video_button">
                 <a title="Video Playlist">VIDEO</a>
-                </button>
+            </button>
             <div class="video_content">
                 <a href=".media_content">Video 1</a>
                 <a href=".media_content">Video 2</a>
@@ -66,7 +64,7 @@
         </div>
         <div id="audio_playlist">
             <audio id="audio1">
-                <source src="audio files/14_Avicii_-_Levels.mp3">
+                <source src="audio/emoji.mp3" type="audio/mpeg">
             </audio>
             <audio id="audio2">
                 <source src="audio files/14_Avicii_-_Levels.mp3">
@@ -76,7 +74,7 @@
             </audio>
             <!--audio player buttons---->
             <div class="aud_control_buttons">
-                <button onclick="play_pause">Play/Pause</button>
+                <button onclick="play_pause()">Play/Pause</button>
             </div>
             <!--initializing progress bar--->
             <div id="aud_default_bar">
@@ -89,6 +87,8 @@
             <p>PandaPlayer</p>
         </div>
     </footer>
+    <!--Reference to the javascript file---->
+    <script src="JavaScript files/main.js"></script>
 </body>
 
 </html>
